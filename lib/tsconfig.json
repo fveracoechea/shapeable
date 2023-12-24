@@ -1,0 +1,8 @@
+{
+  "extends": "@shapeable/typescript-config/library.json",
+  "compilerOptions": {
+    "outDir": "src/dist"
+  },
+  "include": ["src", "src/jsx/types.d.ts"],
+  "exclude": ["node_modules", "src/dist"]
+}

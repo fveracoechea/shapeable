@@ -1,18 +1,14 @@
 {
-  "name": "@repo/ui",
+  "name": "shapeable",
   "version": "0.0.0",
   "private": true,
-  "exports": {
-    "./card": "./src/card.tsx",
-    "./code": "./src/code.tsx"
-  },
+  "main": "",
   "scripts": {
-    "lint": "eslint . --max-warnings 0",
-    "generate:component": "turbo gen react-component"
+    "lint": "eslint . --max-warnings 0"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+    "@shapeable/eslint-config": "workspace:*",
+    "@shapeable/typescript-config": "workspace:*",
     "@turbo/gen": "^1.10.12",
     "@types/node": "^20.5.2",
     "@types/eslint": "^8.44.7",
